@@ -7,8 +7,8 @@ Offline console utility to convert any font to use with Squix's OLED display lib
 2. Integer font size
 3. r = regular, b = bold
 
-## Usage example:
-> java FontConverterV3 "Tahoma" 14 r
+## Usage example, writes console output to file:
+> java FontConverterV3 "Tahoma" 14 r > font-tahoma.h
 
 Extracted from source of online Font Converter at http://oleddisplay.squix.ch/
 Source: https://github.com/squix78/esp8266-display-tools
